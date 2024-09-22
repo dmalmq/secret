@@ -332,7 +332,24 @@
         "homebrew-cask": "homebrew-cask",
         "homebrew-core": "homebrew-core",
         "nix-homebrew": "nix-homebrew",
-        "nixpkgs": "nixpkgs_5"
+        "nixpkgs": "nixpkgs_5",
+        "secrets": "secrets"
+      }
+    },
+    "secrets": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1726980675,
+        "narHash": "sha256-KPLNoE1D/YkmZa5uC8/8u+NFYUPRfwAkQsK/zGvTMrc=",
+        "ref": "refs/heads/main",
+        "rev": "f714121cf1124831ac2af24ad687d57c1f5e4af5",
+        "revCount": 1,
+        "type": "git",
+        "url": "ssh://git@github.com/dmalmq/secret.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "ssh://git@github.com/dmalmq/secret.git"
       }
     },
     "systems": {

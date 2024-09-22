@@ -31,6 +31,10 @@
       url = "git+ssh://git@github.com/dmalmq/secret.git";
       flake = false;
     };
+    secrets = {
+      url = "git+ssh://git@github.com/dmalmq/secret.git";
+      flake = false;
+    };
   };
   outputs = { self, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, home-manager, nixpkgs, disko, agenix, secrets } @inputs:
     let
